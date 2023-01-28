@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Do+Hyeon&family=Explora&family=Unbounded:wght@300&family=Yeon+Sung&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar {
+    background-color: aqua;
+    padding: 13px 14px;
+    background-color: black;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+    font-family: 'Caveat';
+}
+
+#navbar li a:hover {
+    font-size: 1.3rem;
+    color: grey;
+    font-size: large;
+    text-decoration: none;
+    padding: 13px 30px;
+    font-family: 'Caveat';
+}
+
+#introSection {
+    font-family: 'Do Hyeon';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    background: center / cover no-repeat url("/static/bg1.jpg");
+    height: 300px;
+    background-color: red;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+#introSection div.small {
+    font-size: 26px;
+    padding: 5px;
+}
+
+#missionSection {
+    margin: auto;
+    width: 67%;
+    height: 300px;
+    background-color: rgb(252, 252, 253);
+    color: black;
+    font-family: 'Do Hyeon';
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding-top: 23px;
+}
+.card{
+    display: inline-block;
+    color: white;
+    background-color: rgb(2, 2, 36);
+    border: 2px solid rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px 15px ;
+    height: 209px;
+    
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-box p {
+    padding: 10px;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+    border-radius: 20px;
+    margin: 5px 9px;
+}
+.card-img img{
+    filter: invert(1);
+    border-radius: 10px;
+    height:inherit;
+    padding: 0 14px;
+}
+#sponsorsSection {
+    height: 300px;
+    background-color: rgb(13, 13, 29);
+    color: white;
+    font-family: 'Do Hyeon';
+}
+
+#sponsorsSection h2 {
+    text-align: center;
+    padding-top: 23px;
+
+}
+#sponsors{  
+    border: solid 2px white;
+    border-radius: 10px;
+    height: 220px;
+    max-width: 975px;
+    margin: auto;
+    text-align: center;
+}
+#sponsors img{  
+    width: 169px;
+    height: 180px;
+    margin: 18px;
+}
+
+#footer {
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+}

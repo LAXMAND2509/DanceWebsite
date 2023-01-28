@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Do+Hyeon&family=Explora&family=Unbounded:wght@300&family=Yeon+Sung&display=swap');
+
+.container{
+    min-height: 82vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0;;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.myForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+.myInput{
+    border: 2px solid black;
+    font-size: 16px;
+    display: block;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border-radius: 12px;
+}
+.btn{
+    margin-top: 5px;
+    align-items: center;
+    padding: 8px 16px;
+    font-size: 15px;
+    border: 2px sloid black;
+    border-radius: 12px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
