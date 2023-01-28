@@ -1,0 +1,41 @@
+extends base.pug
+block scripts
+    script(src="/static/index.js")
+block style 
+    style 
+        include ../static/style.css
+block content    
+        section#introSection
+            div Welcome to Laxman's Dance academy 
+            div.small Eat Sleep Dance Reapt
+        section#missionSection 
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+                .card-box 
+                    div.card-img
+                        img(src="/static/img2.jpg", alt="")
+                    .card-content  
+                        p This is the best dance academy of the universe 
+            div.card
+                h3 Dance the way you like
+                .card-box 
+                    div.card-img
+                        img(src="/static/img3.jpg", alt="")
+                    .card-content  
+                        p This is the best dance academy of the universe
+            div.card
+                h3 Expert Teaching
+                .card-box 
+                    div.card-img
+                        img(src="/static/img4.jpg", alt="")
+                    .card-content  
+                        p This is the best dance academy of the universe 
+        section#sponsorsSection 
+            h2 section for sponsors
+            div#sponsors 
+                img(src="/static/logo1.png", alt="Sponsor Img1")
+                img(src="/static/logo2.jpg", alt="Sponsor Img2")
+                img(src="/static/logo3.png", alt="Sponsor Img3")
+                img(src="/static/logo4.png", alt="Sponsor Img4")
+        
